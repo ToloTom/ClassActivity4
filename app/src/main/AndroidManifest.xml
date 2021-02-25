@@ -18,6 +18,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity"/>
+
+        <activity android:name=".ThirdActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="ClassActivity4"/>
     </application>
 
 </manifest>
